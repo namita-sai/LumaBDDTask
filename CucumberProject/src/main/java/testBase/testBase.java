@@ -26,7 +26,7 @@ public class testBase
 		args.add("disable-notifications");
 		args.add("disable-infobars");
 		//args.add("headless");	
-
+		
 		
 		 driver=new ChromeDriver();
 		 WebDriverManager.chromedriver().setup();	 
